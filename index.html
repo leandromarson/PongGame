@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Wave</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header id = cabecalho>
+        <div id=cab><h1>Pong Wave</h1></div>
+    </header>
+    <section id = corpo>
+        
+        <aside id = dados>
+            <button id="iniciar" onclick="jogo()">Iniciar</button>
+            <p>Teclas</p>
+            <p>W - Cima, S - Baixo</p>
+            <img id=img src=pessoa.png>
+            <button id="reiniciar" onclick="reiniciarJogo()" disabled>Reiniciar</button>
+        </aside>
+          
+        <canvas id="tela" width="600" height="450">
+            
+        </canvas>      
+        
+    </section>
+    <footer id= rodape>
+        <p>Leandro Marson Ribeiro</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
